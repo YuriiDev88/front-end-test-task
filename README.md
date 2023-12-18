@@ -3,9 +3,9 @@ The main task is to create a page for viewing information about characters from 
 <br>
 
 ## 📎 Links
-**Design**: Figma
+**Design**: [Figma](https://www.figma.com/file/OC5G3NeqSS4pZZlHP6BN9Z/New-Test-Incode-2023?type=design&node-id=101-394&mode=design&t=ugycEw1dvyCbuEnn-0)
 
-**API Documentation**: Docs
+**API Documentation**: [Docs](https://rickandmortyapi.com/documentation)
 
 <br>
 ## 🛠 Technologies
