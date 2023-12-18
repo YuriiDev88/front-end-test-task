@@ -68,7 +68,7 @@ Inform about the task completion and provide a link to the Git repository and th
    1) **Home**
       - has to contain the list of characters (as designed in Figma), filters block, header and footer;
    2) **Character**
-      - shows detailed review page with detailed character's informartion;
+      - shows detailed review page with detailed character's information;
 2. In the bottom-right corner, there should always be a FAB, containing 2 options:
    1) **History**
       - on user click the Drawer has to be open;
@@ -78,18 +78,19 @@ Inform about the task completion and provide a link to the Git repository and th
       - on user click downloads a .csv file with characters which are on the specific page in pagination under filter parameters;
 3. **Filters block**
    1) should allow user to filter the `characters` by three parameters - `Character, Location, Episode`;
-   2) each choosen parameter should add it's corresponding fields for filtering;
+   2) each chosen parameter should add it's corresponding fields for filtering;
    3) should include the `find` button to initiate a request to the API;
    4) user should be able to clear added filters and see the list without filters;
    5) filters should be kept after requests, so user should be able to change his previous settings in filters block;
-   6) each request data for filters should be shown into the **History**; 
+   6) each request data for filters should be shown into the **History**;
+   7) if there are no results from a request, show the screen with the message `There are no results from your request;
 4. **Character card**
    1) character card has to show user the fields according to the design;
    2) on clicking the characters name, user should be redirected to the character page;
    3) the displayed information is at your discretion, but show not less than 5 fields of different character data;
    4) clicking action should be recorded in the **History**. It will be enough to write "Viewed information about <character's name>";
    5) on the character page, the Download button within FAB should be inactive;
-5. If you decided to work with the REST API for this task, use Redux only. If you choose GraphQL, you can just go on with the Apollo client
+5. If you decide to work with the REST API for this task, use Redux only. If you choose GraphQL, you can just go on with the Apollo client
 
 <br>
 
@@ -109,3 +110,5 @@ Inform about the task completion and provide a link to the Git repository and th
 
 
 🖥  Happy hacking!
+
+
